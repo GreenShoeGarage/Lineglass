@@ -1,0 +1,3265 @@
+{
+  "format": "lineglass-session",
+  "formatVersion": 1,
+  "application": {
+    "name": "LINEGLASS",
+    "version": "1.0.0"
+  },
+  "project": {
+    "id": "1437d6ed-d119-4a34-9a1e-9542a5d07545",
+    "name": "RS-485 Modbus RTU — Valid Traffic"
+  },
+  "session": {
+    "id": "c1956726-c673-491b-b074-0e3fb3b9f990",
+    "name": "RS-485 Modbus RTU — Valid Traffic",
+    "source": "sample-file",
+    "created": "2026-08-18T14:00:00Z",
+    "startWall": "2026-08-18T14:00:00.000Z",
+    "endWall": "2026-08-18T14:00:19.918Z",
+    "startPerf": null,
+    "duration": 19918.0,
+    "chunks": [
+      {
+        "id": "23275a04-0d38-43e7-bbca-7351635009a7",
+        "sequence": 0,
+        "t": 0.0,
+        "wall": "2026-08-18T14:00:00.000Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "664d5327-f332-4e88-b7ae-de157b5f99cc",
+        "sequence": 1,
+        "t": 8.0,
+        "wall": "2026-08-18T14:00:00.008Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          200,
+          0,
+          0,
+          123,
+          205
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "8d4cb37a-59f2-4ef7-b3f5-79ecddfff710",
+        "sequence": 2,
+        "t": 250.0,
+        "wall": "2026-08-18T14:00:00.250Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "9a4ab99b-353c-4217-af1b-4e8b304aec1a",
+        "sequence": 3,
+        "t": 259.0,
+        "wall": "2026-08-18T14:00:00.259Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          204,
+          0,
+          1,
+          251,
+          204
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "6e629d2d-021a-4758-b85e-f00520a1a8b6",
+        "sequence": 4,
+        "t": 501.0,
+        "wall": "2026-08-18T14:00:00.501Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "658ebb84-be4b-4846-ae00-c1e4d7292c89",
+        "sequence": 5,
+        "t": 511.0,
+        "wall": "2026-08-18T14:00:00.511Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          209,
+          0,
+          2,
+          43,
+          203
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f1599fce-b051-4dec-aca2-ef1bf4f14ee1",
+        "sequence": 6,
+        "t": 753.0,
+        "wall": "2026-08-18T14:00:00.753Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "9217134e-38ba-4afe-a93f-2ac9fa77c7a1",
+        "sequence": 7,
+        "t": 764.0,
+        "wall": "2026-08-18T14:00:00.764Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          213,
+          0,
+          3,
+          171,
+          202
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d918fa90-23e7-4bb1-87d8-6f1aa551c657",
+        "sequence": 8,
+        "t": 1006.0,
+        "wall": "2026-08-18T14:00:01.006Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b72e0aba-2b77-4d5f-9da2-d819d2cc9c65",
+        "sequence": 9,
+        "t": 1018.0,
+        "wall": "2026-08-18T14:00:01.018Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          217,
+          0,
+          4,
+          42,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "616fd412-65a9-4951-b7e2-bcc76a0fdd79",
+        "sequence": 10,
+        "t": 1260.0,
+        "wall": "2026-08-18T14:00:01.260Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c06ddb23-225e-4478-a08d-118ffba9c8e1",
+        "sequence": 11,
+        "t": 1268.0,
+        "wall": "2026-08-18T14:00:01.268Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          221,
+          0,
+          5,
+          170,
+          10
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "8083e50f-0da8-411d-bd7f-6d526a45f9a4",
+        "sequence": 12,
+        "t": 1510.0,
+        "wall": "2026-08-18T14:00:01.510Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "1fb65d38-5683-4659-80e0-a25c64a68ff1",
+        "sequence": 13,
+        "t": 1519.0,
+        "wall": "2026-08-18T14:00:01.519Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          225,
+          0,
+          6,
+          42,
+          7
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c57a1718-ec5a-47b5-b950-da4aea241d85",
+        "sequence": 14,
+        "t": 1761.0,
+        "wall": "2026-08-18T14:00:01.761Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d8de319b-9836-4371-977f-a34a5d1da40a",
+        "sequence": 15,
+        "t": 1771.0,
+        "wall": "2026-08-18T14:00:01.771Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          228,
+          0,
+          7,
+          251,
+          198
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0cf18c56-0e43-4939-b63f-edd5e12fe02e",
+        "sequence": 16,
+        "t": 2013.0,
+        "wall": "2026-08-18T14:00:02.013Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "4212df52-02ea-43d3-8b15-039694b621c6",
+        "sequence": 17,
+        "t": 2024.0,
+        "wall": "2026-08-18T14:00:02.024Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          231,
+          0,
+          8,
+          75,
+          194
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a5553d25-9eb7-40e1-80b5-7afbb97c1d62",
+        "sequence": 18,
+        "t": 2266.0,
+        "wall": "2026-08-18T14:00:02.266Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "3400cb31-0f61-43ad-9dda-6b92586ee36d",
+        "sequence": 19,
+        "t": 2278.0,
+        "wall": "2026-08-18T14:00:02.278Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          234,
+          0,
+          9,
+          27,
+          193
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "378490b6-d239-438a-a20a-8ba231a67f77",
+        "sequence": 20,
+        "t": 2520.0,
+        "wall": "2026-08-18T14:00:02.520Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d56339f8-8d4a-4fcf-ac8a-3351b0ad4162",
+        "sequence": 21,
+        "t": 2528.0,
+        "wall": "2026-08-18T14:00:02.528Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          236,
+          0,
+          10,
+          187,
+          193
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "cedde25e-e4d7-494b-80b0-eb34579e7a3f",
+        "sequence": 22,
+        "t": 2770.0,
+        "wall": "2026-08-18T14:00:02.770Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e76bdb76-59c6-4014-88c6-684d2856dba5",
+        "sequence": 23,
+        "t": 2779.0,
+        "wall": "2026-08-18T14:00:02.779Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          238,
+          0,
+          11,
+          219,
+          193
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "1ada9453-0f01-4a90-b254-4fabf6e0528f",
+        "sequence": 24,
+        "t": 3021.0,
+        "wall": "2026-08-18T14:00:03.021Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "fa53e4d8-ff41-47c4-a86b-1737a8ac487a",
+        "sequence": 25,
+        "t": 3031.0,
+        "wall": "2026-08-18T14:00:03.031Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          239,
+          0,
+          12,
+          203,
+          195
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d384ae50-b229-4a78-8c37-80c4f16871f4",
+        "sequence": 26,
+        "t": 3273.0,
+        "wall": "2026-08-18T14:00:03.273Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d8a0ad2c-3d3f-4f60-b0a9-33063dd4cb46",
+        "sequence": 27,
+        "t": 3284.0,
+        "wall": "2026-08-18T14:00:03.284Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          240,
+          0,
+          13,
+          59,
+          197
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0ec91414-f7bf-4222-9f5d-a0bc5751bde0",
+        "sequence": 28,
+        "t": 3526.0,
+        "wall": "2026-08-18T14:00:03.526Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "12448de6-6309-42ef-97e1-7bb0aef1da50",
+        "sequence": 29,
+        "t": 3538.0,
+        "wall": "2026-08-18T14:00:03.538Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          240,
+          0,
+          14,
+          123,
+          196
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "8d141fdf-19aa-4bba-8cef-2ec12240e018",
+        "sequence": 30,
+        "t": 3780.0,
+        "wall": "2026-08-18T14:00:03.780Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "846f8898-2a14-463f-9a1d-6ff4ffcb92c9",
+        "sequence": 31,
+        "t": 3788.0,
+        "wall": "2026-08-18T14:00:03.788Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          240,
+          0,
+          15,
+          186,
+          4
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "843e6229-66b8-4d00-9e82-e9e73a9f1e5d",
+        "sequence": 32,
+        "t": 4030.0,
+        "wall": "2026-08-18T14:00:04.030Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f7781bff-2ce9-4790-b59b-68ba587863dd",
+        "sequence": 33,
+        "t": 4039.0,
+        "wall": "2026-08-18T14:00:04.039Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          239,
+          0,
+          16,
+          202,
+          10
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c41e245c-4999-4789-9e14-d25528ee61c0",
+        "sequence": 34,
+        "t": 4281.0,
+        "wall": "2026-08-18T14:00:04.281Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "015c851d-6aa6-4e9e-8b6f-73c10a9baf43",
+        "sequence": 35,
+        "t": 4291.0,
+        "wall": "2026-08-18T14:00:04.291Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          238,
+          0,
+          17,
+          90,
+          10
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b8ede26d-8d52-47da-a133-6053f71c7fe9",
+        "sequence": 36,
+        "t": 4533.0,
+        "wall": "2026-08-18T14:00:04.533Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f70af092-7318-4b45-a36f-d4e8ebee6c29",
+        "sequence": 37,
+        "t": 4544.0,
+        "wall": "2026-08-18T14:00:04.544Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          236,
+          0,
+          18,
+          187,
+          203
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "31325339-f9fb-4e7b-b51c-1c379ec194ff",
+        "sequence": 38,
+        "t": 4786.0,
+        "wall": "2026-08-18T14:00:04.786Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a8eea2ba-df66-47ac-8e69-e5ed65e1a3cf",
+        "sequence": 39,
+        "t": 4798.0,
+        "wall": "2026-08-18T14:00:04.798Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          234,
+          0,
+          19,
+          154,
+          10
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "6f0f7a91-d2f6-4a19-b4c3-86bd53cc56f4",
+        "sequence": 40,
+        "t": 5040.0,
+        "wall": "2026-08-18T14:00:05.040Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "dec7e9d8-6b41-4c84-96b8-4406463db87e",
+        "sequence": 41,
+        "t": 5048.0,
+        "wall": "2026-08-18T14:00:05.048Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          232,
+          0,
+          20,
+          122,
+          8
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "05a6fd1e-28fc-4310-b88a-1ebe0947fa39",
+        "sequence": 42,
+        "t": 5290.0,
+        "wall": "2026-08-18T14:00:05.290Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "310cb00d-0fc7-42e4-b1f2-43f3d4e42074",
+        "sequence": 43,
+        "t": 5299.0,
+        "wall": "2026-08-18T14:00:05.299Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          229,
+          0,
+          21,
+          42,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "7ff7e8a7-5071-4aed-b049-25efb94293b7",
+        "sequence": 44,
+        "t": 5541.0,
+        "wall": "2026-08-18T14:00:05.541Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b192730b-cf0a-462a-aba7-37c45faea4c6",
+        "sequence": 45,
+        "t": 5551.0,
+        "wall": "2026-08-18T14:00:05.551Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          226,
+          0,
+          22,
+          219,
+          203
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c8692fd5-5188-4c5f-9ed1-69382ea545ea",
+        "sequence": 46,
+        "t": 5793.0,
+        "wall": "2026-08-18T14:00:05.793Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d52259ba-cd49-4a20-b179-ebcfb6ce0b57",
+        "sequence": 47,
+        "t": 5804.0,
+        "wall": "2026-08-18T14:00:05.804Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          222,
+          0,
+          23,
+          218,
+          7
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0306cec1-55f4-473e-aac3-b99503500260",
+        "sequence": 48,
+        "t": 6046.0,
+        "wall": "2026-08-18T14:00:06.046Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "18e1b5a2-cb34-4a48-882c-67578b2917f9",
+        "sequence": 49,
+        "t": 6058.0,
+        "wall": "2026-08-18T14:00:06.058Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          218,
+          0,
+          24,
+          219,
+          194
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "865755a3-5231-4ba9-a567-4a14c6621b24",
+        "sequence": 50,
+        "t": 6300.0,
+        "wall": "2026-08-18T14:00:06.300Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "82123fa5-b163-46de-ac59-2531ae50491f",
+        "sequence": 51,
+        "t": 6308.0,
+        "wall": "2026-08-18T14:00:06.308Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          214,
+          0,
+          25,
+          218,
+          1
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "01f54654-ab91-4ce5-80fd-11c47098b4b8",
+        "sequence": 52,
+        "t": 6550.0,
+        "wall": "2026-08-18T14:00:06.550Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "7ff36d11-8be0-4c43-84e1-1f61029d5bab",
+        "sequence": 53,
+        "t": 6559.0,
+        "wall": "2026-08-18T14:00:06.559Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          210,
+          0,
+          26,
+          219,
+          193
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "54697104-ba1a-4cf2-bdb3-1c1e67c97740",
+        "sequence": 54,
+        "t": 6801.0,
+        "wall": "2026-08-18T14:00:06.801Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "829d9cf6-bca2-4f5d-a2c6-5832e5d4d006",
+        "sequence": 55,
+        "t": 6811.0,
+        "wall": "2026-08-18T14:00:06.811Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          206,
+          0,
+          27,
+          219,
+          199
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "51d05e8c-245b-4303-90ef-ba406129dd01",
+        "sequence": 56,
+        "t": 7053.0,
+        "wall": "2026-08-18T14:00:07.053Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "9c0c9853-cf4f-44dd-8390-3e657b43361b",
+        "sequence": 57,
+        "t": 7064.0,
+        "wall": "2026-08-18T14:00:07.064Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          201,
+          0,
+          28,
+          43,
+          196
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "2b99fbfd-6cbb-4d05-b9ef-2af04714d164",
+        "sequence": 58,
+        "t": 7306.0,
+        "wall": "2026-08-18T14:00:07.306Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "09548c45-05b6-4599-aa14-b66f8630fa29",
+        "sequence": 59,
+        "t": 7318.0,
+        "wall": "2026-08-18T14:00:07.318Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          197,
+          0,
+          29,
+          42,
+          7
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "efec9173-2459-411b-aa51-1812590bb92c",
+        "sequence": 60,
+        "t": 7560.0,
+        "wall": "2026-08-18T14:00:07.560Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c445d120-f6ec-4076-a910-45e374e10d62",
+        "sequence": 61,
+        "t": 7568.0,
+        "wall": "2026-08-18T14:00:07.568Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          192,
+          0,
+          30,
+          122,
+          7
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "5fda68bd-e947-4f54-9197-c5f3b5d5452d",
+        "sequence": 62,
+        "t": 7810.0,
+        "wall": "2026-08-18T14:00:07.810Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "036bf53d-4ae5-40a9-a616-97f4cbc6344e",
+        "sequence": 63,
+        "t": 7819.0,
+        "wall": "2026-08-18T14:00:07.819Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          188,
+          0,
+          31,
+          122,
+          31
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e68b313e-a2dc-4316-8526-df4565fddde9",
+        "sequence": 64,
+        "t": 8061.0,
+        "wall": "2026-08-18T14:00:08.061Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "cdbdf68f-a9fd-44f3-96a5-e951e43e5b11",
+        "sequence": 65,
+        "t": 8071.0,
+        "wall": "2026-08-18T14:00:08.071Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          184,
+          0,
+          32,
+          123,
+          206
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f75229bd-db57-4646-898c-af09bd1490fc",
+        "sequence": 66,
+        "t": 8313.0,
+        "wall": "2026-08-18T14:00:08.313Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "abfe38f2-b3c3-425d-ae1f-0e119dd73002",
+        "sequence": 67,
+        "t": 8324.0,
+        "wall": "2026-08-18T14:00:08.324Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          180,
+          0,
+          33,
+          122,
+          13
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0473b773-9df1-44a4-99bb-a2ddeed18af3",
+        "sequence": 68,
+        "t": 8566.0,
+        "wall": "2026-08-18T14:00:08.566Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "05251d77-53a6-452f-b418-88c5b22b04ea",
+        "sequence": 69,
+        "t": 8578.0,
+        "wall": "2026-08-18T14:00:08.578Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          176,
+          0,
+          34,
+          123,
+          205
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "dad1f6f1-a01e-40b6-9416-2adecbf7cc5a",
+        "sequence": 70,
+        "t": 8820.0,
+        "wall": "2026-08-18T14:00:08.820Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "5c2b7f98-baab-41ff-8bc6-49666191e8d1",
+        "sequence": 71,
+        "t": 8828.0,
+        "wall": "2026-08-18T14:00:08.828Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          173,
+          0,
+          35,
+          42,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "fdb0ae73-3d8c-444b-becc-a9d04e5983e2",
+        "sequence": 72,
+        "t": 9070.0,
+        "wall": "2026-08-18T14:00:09.070Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "46d1157b-9bd8-4796-a0b4-fa4be89e2223",
+        "sequence": 73,
+        "t": 9079.0,
+        "wall": "2026-08-18T14:00:09.079Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          170,
+          0,
+          36,
+          218,
+          8
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "ec92b2b7-8a75-4bbe-bb32-84ee90f69c29",
+        "sequence": 74,
+        "t": 9321.0,
+        "wall": "2026-08-18T14:00:09.321Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "77085fdd-ec2c-4247-89aa-f3f17a89df23",
+        "sequence": 75,
+        "t": 9331.0,
+        "wall": "2026-08-18T14:00:09.331Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          167,
+          0,
+          37,
+          138,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e000c9a9-2068-4de7-916f-e8a568514d48",
+        "sequence": 76,
+        "t": 9573.0,
+        "wall": "2026-08-18T14:00:09.573Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "5d96a0fc-2f90-4cb5-9579-3eb7c2eb961c",
+        "sequence": 77,
+        "t": 9584.0,
+        "wall": "2026-08-18T14:00:09.584Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          165,
+          0,
+          38,
+          107,
+          202
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "612f7be8-775e-471c-887a-cb9acc67cef6",
+        "sequence": 78,
+        "t": 9826.0,
+        "wall": "2026-08-18T14:00:09.826Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "5093e3bc-eabb-4187-89c1-05a71f3c1740",
+        "sequence": 79,
+        "t": 9838.0,
+        "wall": "2026-08-18T14:00:09.838Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          163,
+          0,
+          39,
+          74,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d554f73f-61b4-4e59-b9dc-800da184a014",
+        "sequence": 80,
+        "t": 10080.0,
+        "wall": "2026-08-18T14:00:10.080Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d8e0b988-0eed-4eb8-a79a-a54b05c92aa2",
+        "sequence": 81,
+        "t": 10088.0,
+        "wall": "2026-08-18T14:00:10.088Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          161,
+          0,
+          40,
+          171,
+          207
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0cd88371-41c6-4c9f-b277-cbb1f476d944",
+        "sequence": 82,
+        "t": 10330.0,
+        "wall": "2026-08-18T14:00:10.330Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "464bb58b-22d8-4351-8775-dba0dd8b915d",
+        "sequence": 83,
+        "t": 10339.0,
+        "wall": "2026-08-18T14:00:10.339Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          160,
+          0,
+          41,
+          59,
+          207
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b15050c6-78e7-497c-a587-a19ba934cb2b",
+        "sequence": 84,
+        "t": 10581.0,
+        "wall": "2026-08-18T14:00:10.581Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "cb3b06c3-8a7c-48f8-bb68-83103c2cbfc3",
+        "sequence": 85,
+        "t": 10591.0,
+        "wall": "2026-08-18T14:00:10.591Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          160,
+          0,
+          42,
+          123,
+          206
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "da40f2ce-b405-4723-b528-ded2b2388b11",
+        "sequence": 86,
+        "t": 10833.0,
+        "wall": "2026-08-18T14:00:10.833Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "7857f738-2b19-465f-810e-e7d3f8de754d",
+        "sequence": 87,
+        "t": 10844.0,
+        "wall": "2026-08-18T14:00:10.844Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          160,
+          0,
+          43,
+          186,
+          14
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "77afd70a-97bd-43d8-94ca-882dd4d7448a",
+        "sequence": 88,
+        "t": 11086.0,
+        "wall": "2026-08-18T14:00:11.086Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "16a1e400-5f10-4c96-9f07-c707064fda87",
+        "sequence": 89,
+        "t": 11098.0,
+        "wall": "2026-08-18T14:00:11.098Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          161,
+          0,
+          44,
+          170,
+          12
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "60c8756a-c559-4e7a-836b-ece763d30524",
+        "sequence": 90,
+        "t": 11340.0,
+        "wall": "2026-08-18T14:00:11.340Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "42e41cad-a8e1-4313-b354-c9ab84b972c4",
+        "sequence": 91,
+        "t": 11348.0,
+        "wall": "2026-08-18T14:00:11.348Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          162,
+          0,
+          45,
+          155,
+          204
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e2189921-da4d-4baa-936c-e30e3e6d205c",
+        "sequence": 92,
+        "t": 11590.0,
+        "wall": "2026-08-18T14:00:11.590Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "4099f18a-a6d0-4e30-902c-d4533f548c1b",
+        "sequence": 93,
+        "t": 11599.0,
+        "wall": "2026-08-18T14:00:11.599Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          163,
+          0,
+          46,
+          138,
+          13
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "eb4d5170-bb2f-4b89-9c58-2e8bcafc177b",
+        "sequence": 94,
+        "t": 11841.0,
+        "wall": "2026-08-18T14:00:11.841Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "ff93ecec-7b8e-429a-bce6-3cae50ce239f",
+        "sequence": 95,
+        "t": 11851.0,
+        "wall": "2026-08-18T14:00:11.851Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          165,
+          0,
+          47,
+          171,
+          204
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "6a6e1429-e624-44d6-ab17-95f3ff84b979",
+        "sequence": 96,
+        "t": 12093.0,
+        "wall": "2026-08-18T14:00:12.093Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "8faca5eb-5df4-4606-bd12-0deca81a76b8",
+        "sequence": 97,
+        "t": 12104.0,
+        "wall": "2026-08-18T14:00:12.104Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          167,
+          0,
+          48,
+          75,
+          196
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b2c3d05b-bdf5-4a7d-96ee-0086ae7a4c95",
+        "sequence": 98,
+        "t": 12346.0,
+        "wall": "2026-08-18T14:00:12.346Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a0f81453-0c73-4f19-a1dd-553ec43540f3",
+        "sequence": 99,
+        "t": 12358.0,
+        "wall": "2026-08-18T14:00:12.358Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          170,
+          0,
+          49,
+          27,
+          199
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "663c8207-acf3-4dca-b39b-1e5fbecad318",
+        "sequence": 100,
+        "t": 12600.0,
+        "wall": "2026-08-18T14:00:12.600Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "36bd463a-7531-4677-9b40-a84d31909291",
+        "sequence": 101,
+        "t": 12608.0,
+        "wall": "2026-08-18T14:00:12.608Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          173,
+          0,
+          50,
+          234,
+          7
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "26f27f95-8fc3-4e5f-9261-e6561552a4bb",
+        "sequence": 102,
+        "t": 12850.0,
+        "wall": "2026-08-18T14:00:12.850Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "19177d80-0d7c-4537-92ed-e5f13efc0db9",
+        "sequence": 103,
+        "t": 12859.0,
+        "wall": "2026-08-18T14:00:12.859Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          177,
+          0,
+          51,
+          234,
+          1
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "fe2058c5-7946-443f-9f34-340ac186f640",
+        "sequence": 104,
+        "t": 13101.0,
+        "wall": "2026-08-18T14:00:13.101Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "2a68d432-56d2-4240-8f66-1be94d7274d7",
+        "sequence": 105,
+        "t": 13111.0,
+        "wall": "2026-08-18T14:00:13.111Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          181,
+          0,
+          52,
+          234,
+          2
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a6e61e0e-d74c-4405-aead-bb4bd43c915f",
+        "sequence": 106,
+        "t": 13353.0,
+        "wall": "2026-08-18T14:00:13.353Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "95f16ef6-1e46-47e4-a419-3bc41ea1549a",
+        "sequence": 107,
+        "t": 13364.0,
+        "wall": "2026-08-18T14:00:13.364Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          185,
+          0,
+          53,
+          235,
+          193
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "ef9098de-899e-4f91-9cd1-291a259f87f9",
+        "sequence": 108,
+        "t": 13606.0,
+        "wall": "2026-08-18T14:00:13.606Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "bc6a9004-708b-48a1-8659-3efa957857cb",
+        "sequence": 109,
+        "t": 13618.0,
+        "wall": "2026-08-18T14:00:13.618Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          189,
+          0,
+          54,
+          234,
+          1
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "7449358b-d603-498b-843e-905ca6694cee",
+        "sequence": 110,
+        "t": 13860.0,
+        "wall": "2026-08-18T14:00:13.860Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "75498545-3969-4314-aab7-caec63c0ceb1",
+        "sequence": 111,
+        "t": 13868.0,
+        "wall": "2026-08-18T14:00:13.868Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          193,
+          0,
+          55,
+          234,
+          25
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e27b2469-fe75-4f30-82e6-962f09d85384",
+        "sequence": 112,
+        "t": 14110.0,
+        "wall": "2026-08-18T14:00:14.110Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "31f0df8b-46b0-4ae6-8568-9ed4249fac64",
+        "sequence": 113,
+        "t": 14119.0,
+        "wall": "2026-08-18T14:00:14.119Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          198,
+          0,
+          56,
+          27,
+          220
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c908b7de-cd84-4bd1-9bbc-b9fa8169b0e5",
+        "sequence": 114,
+        "t": 14361.0,
+        "wall": "2026-08-18T14:00:14.361Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0192bc80-ca7c-4254-85dc-0713251bacdb",
+        "sequence": 115,
+        "t": 14371.0,
+        "wall": "2026-08-18T14:00:14.371Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          202,
+          0,
+          57,
+          26,
+          31
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "038d2d87-a8b8-4d80-9ccd-05487d6b7993",
+        "sequence": 116,
+        "t": 14613.0,
+        "wall": "2026-08-18T14:00:14.613Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "4345e82c-7da9-464b-9898-f5654404159f",
+        "sequence": 117,
+        "t": 14624.0,
+        "wall": "2026-08-18T14:00:14.624Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          206,
+          0,
+          58,
+          27,
+          223
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "ed25c4f2-7a93-4ae4-9417-9085144c071c",
+        "sequence": 118,
+        "t": 14866.0,
+        "wall": "2026-08-18T14:00:14.866Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "fdc8aea1-6844-4125-b202-8b225415812e",
+        "sequence": 119,
+        "t": 14878.0,
+        "wall": "2026-08-18T14:00:14.878Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          211,
+          0,
+          59,
+          74,
+          25
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "fa3b4f66-5eb1-480c-89c9-1df52215463c",
+        "sequence": 120,
+        "t": 15120.0,
+        "wall": "2026-08-18T14:00:15.120Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "3a69ce84-19e1-4416-958b-0279f83d92d5",
+        "sequence": 121,
+        "t": 15128.0,
+        "wall": "2026-08-18T14:00:15.128Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          215,
+          0,
+          60,
+          74,
+          26
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "9b21da7c-580d-40d8-9389-cf6507b222da",
+        "sequence": 122,
+        "t": 15370.0,
+        "wall": "2026-08-18T14:00:15.370Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "09dd69ef-1eb5-457c-bcfb-db9894da9296",
+        "sequence": 123,
+        "t": 15379.0,
+        "wall": "2026-08-18T14:00:15.379Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          219,
+          0,
+          61,
+          75,
+          217
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "170b13a6-8c89-4991-9035-6956448dde9b",
+        "sequence": 124,
+        "t": 15621.0,
+        "wall": "2026-08-18T14:00:15.621Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "468228ba-630e-44e4-b3b9-282ad1358d9a",
+        "sequence": 125,
+        "t": 15631.0,
+        "wall": "2026-08-18T14:00:15.631Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          223,
+          0,
+          62,
+          74,
+          25
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "12f47c0f-2f4a-40cb-a985-9ca8d1347ab4",
+        "sequence": 126,
+        "t": 15873.0,
+        "wall": "2026-08-18T14:00:15.873Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b0804dd2-558d-4aa2-8524-a92470228503",
+        "sequence": 127,
+        "t": 15884.0,
+        "wall": "2026-08-18T14:00:15.884Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          226,
+          0,
+          63,
+          26,
+          21
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "0552711f-c9bb-4a1c-bba8-b5792e68758b",
+        "sequence": 128,
+        "t": 16126.0,
+        "wall": "2026-08-18T14:00:16.126Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "bc3975c1-f953-481e-8f65-6213af94aeca",
+        "sequence": 129,
+        "t": 16138.0,
+        "wall": "2026-08-18T14:00:16.138Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          229,
+          0,
+          64,
+          234,
+          52
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e9f88d4a-c296-46a8-bcd1-25417e4ea734",
+        "sequence": 130,
+        "t": 16380.0,
+        "wall": "2026-08-18T14:00:16.380Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "52a10833-216f-48bc-8128-152d38c06227",
+        "sequence": 131,
+        "t": 16388.0,
+        "wall": "2026-08-18T14:00:16.388Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          232,
+          0,
+          65,
+          186,
+          55
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a19846ac-d504-468e-b3f6-339b899cf4b7",
+        "sequence": 132,
+        "t": 16630.0,
+        "wall": "2026-08-18T14:00:16.630Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f48526d5-a13e-4d79-85d5-f6eac9c374d9",
+        "sequence": 133,
+        "t": 16639.0,
+        "wall": "2026-08-18T14:00:16.639Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          235,
+          0,
+          66,
+          10,
+          54
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "dadafdfe-ad5a-4c63-ad33-9fde6565a75a",
+        "sequence": 134,
+        "t": 16881.0,
+        "wall": "2026-08-18T14:00:16.881Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "3889a049-2aaa-4d9e-adf4-773a973ac529",
+        "sequence": 135,
+        "t": 16891.0,
+        "wall": "2026-08-18T14:00:16.891Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          237,
+          0,
+          67,
+          43,
+          247
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "af9a8dd5-1fce-4c25-8193-9a7d61b0b090",
+        "sequence": 136,
+        "t": 17133.0,
+        "wall": "2026-08-18T14:00:17.133Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "226f5812-d7ec-40d8-8475-6aca632e447d",
+        "sequence": 137,
+        "t": 17144.0,
+        "wall": "2026-08-18T14:00:17.144Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          238,
+          0,
+          68,
+          154,
+          53
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "e3b90fd0-c9ea-490b-be44-4eff6c90344a",
+        "sequence": 138,
+        "t": 17386.0,
+        "wall": "2026-08-18T14:00:17.386Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c142a066-1f4f-42c4-9a13-26ec5c32c495",
+        "sequence": 139,
+        "t": 17398.0,
+        "wall": "2026-08-18T14:00:17.398Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          239,
+          0,
+          69,
+          10,
+          53
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "9e172063-11c7-4426-8ad1-c21c00dc8455",
+        "sequence": 140,
+        "t": 17640.0,
+        "wall": "2026-08-18T14:00:17.640Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f0484221-6598-4808-8938-488e79247331",
+        "sequence": 141,
+        "t": 17648.0,
+        "wall": "2026-08-18T14:00:17.648Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          240,
+          0,
+          70,
+          123,
+          242
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "ade29df5-677e-4371-b551-3d159060a0ba",
+        "sequence": 142,
+        "t": 17890.0,
+        "wall": "2026-08-18T14:00:17.890Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "cf052974-ede2-405d-8cd0-a7c6942e0cbb",
+        "sequence": 143,
+        "t": 17899.0,
+        "wall": "2026-08-18T14:00:17.899Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          240,
+          0,
+          71,
+          186,
+          50
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "f741419c-c30b-4da2-a173-dec8cda4bd3c",
+        "sequence": 144,
+        "t": 18141.0,
+        "wall": "2026-08-18T14:00:18.141Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "8ccbf760-7419-461b-9150-05607c10e0ec",
+        "sequence": 145,
+        "t": 18151.0,
+        "wall": "2026-08-18T14:00:18.151Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          240,
+          0,
+          72,
+          250,
+          54
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "b0bc64c5-b93f-4766-a5bc-7889f040034d",
+        "sequence": 146,
+        "t": 18393.0,
+        "wall": "2026-08-18T14:00:18.393Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "94dd7982-8261-4c15-af15-2037ba69588c",
+        "sequence": 147,
+        "t": 18404.0,
+        "wall": "2026-08-18T14:00:18.404Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          239,
+          0,
+          73,
+          10,
+          48
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a7fb8a6c-a51c-49cd-8e2d-2a60a65697a4",
+        "sequence": 148,
+        "t": 18646.0,
+        "wall": "2026-08-18T14:00:18.646Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "069742e2-ed1f-4c20-8cbe-0a97f62c5135",
+        "sequence": 149,
+        "t": 18658.0,
+        "wall": "2026-08-18T14:00:18.658Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          237,
+          0,
+          74,
+          235,
+          241
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "aefca7aa-bd85-4e6e-8c91-d0ac2a4c67ae",
+        "sequence": 150,
+        "t": 18900.0,
+        "wall": "2026-08-18T14:00:18.900Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "564d6a30-d63f-42a7-b790-c084021a21c3",
+        "sequence": 151,
+        "t": 18908.0,
+        "wall": "2026-08-18T14:00:18.908Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          235,
+          0,
+          75,
+          202,
+          48
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "a63a6f6d-9c76-4161-a081-b8a4ae13dfad",
+        "sequence": 152,
+        "t": 19150.0,
+        "wall": "2026-08-18T14:00:19.150Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "5a2f2533-9f7b-4b30-9b08-6db325651038",
+        "sequence": 153,
+        "t": 19159.0,
+        "wall": "2026-08-18T14:00:19.159Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          233,
+          0,
+          76,
+          42,
+          50
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "c46521c8-0241-4069-b268-3dee3be87cbe",
+        "sequence": 154,
+        "t": 19401.0,
+        "wall": "2026-08-18T14:00:19.401Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "d1b5d300-0244-4461-a51d-867467207d69",
+        "sequence": 155,
+        "t": 19411.0,
+        "wall": "2026-08-18T14:00:19.411Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          231,
+          0,
+          77,
+          138,
+          49
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "6c2aa998-ca21-4d4d-9bad-6267342a2fd0",
+        "sequence": 156,
+        "t": 19653.0,
+        "wall": "2026-08-18T14:00:19.653Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "380a5791-7b01-4e78-8ae3-39db3eb0a305",
+        "sequence": 157,
+        "t": 19664.0,
+        "wall": "2026-08-18T14:00:19.664Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          228,
+          0,
+          78,
+          58,
+          48
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "4b223bc3-c25b-483d-aa0c-55037a21c4d4",
+        "sequence": 158,
+        "t": 19906.0,
+        "wall": "2026-08-18T14:00:19.906Z",
+        "channel": "A",
+        "direction": "TX",
+        "bytes": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          2,
+          196,
+          11
+        ],
+        "source": "sample-file"
+      },
+      {
+        "id": "390601a7-0735-4a84-9667-165041132602",
+        "sequence": 159,
+        "t": 19918.0,
+        "wall": "2026-08-18T14:00:19.918Z",
+        "channel": "A",
+        "direction": "RX",
+        "bytes": [
+          1,
+          3,
+          4,
+          0,
+          224,
+          0,
+          79,
+          186,
+          49
+        ],
+        "source": "sample-file"
+      }
+    ],
+    "frames": [],
+    "events": [],
+    "annotations": [
+      {
+        "id": "a6743564-d429-4d5e-943c-381cc573e96e",
+        "t": 0,
+        "wall": "2026-08-18T14:00:00.000Z",
+        "text": "Valid function 03 requests and responses with changing register values and correct Modbus CRCs.",
+        "source": "sample-file"
+      }
+    ],
+    "bookmarks": [],
+    "bytesTotal": 1360,
+    "rxBytes": 720,
+    "txBytes": 640,
+    "readerErrors": 0,
+    "decoderWarnings": 0,
+    "malformed": 0,
+    "checksumFailures": 0,
+    "displayDropped": 0,
+    "settingsSnapshot": {
+      "portA": {
+        "baudRate": 19200,
+        "dataBits": 8,
+        "stopBits": 1,
+        "parity": "none",
+        "flowControl": "none",
+        "profile": "RS-485 2-wire",
+        "role": "controller",
+        "label": "Channel A",
+        "notes": "Representative LINEGLASS sample capture."
+      },
+      "portB": {
+        "baudRate": 9600,
+        "dataBits": 8,
+        "stopBits": 1,
+        "parity": "none",
+        "flowControl": "none",
+        "profile": "RS-232",
+        "role": "monitor",
+        "label": "Channel B",
+        "notes": "Representative LINEGLASS sample capture."
+      },
+      "framing": {
+        "rule": "gap",
+        "delimiter": [
+          13,
+          10
+        ],
+        "fixedLength": 8,
+        "gapMs": 4,
+        "start": [
+          2
+        ],
+        "end": [
+          3
+        ],
+        "lengthOffset": 1,
+        "lengthWidth": 1,
+        "lengthEndian": "little",
+        "lengthAdjustment": 2
+      },
+      "decoder": "modbus-rtu"
+    }
+  },
+  "configuration": {
+    "framing": {
+      "rule": "gap",
+      "delimiter": [
+        13,
+        10
+      ],
+      "fixedLength": 8,
+      "gapMs": 4,
+      "start": [
+        2
+      ],
+      "end": [
+        3
+      ],
+      "lengthOffset": 1,
+      "lengthWidth": 1,
+      "lengthEndian": "little",
+      "lengthAdjustment": 2
+    },
+    "decoder": "modbus-rtu",
+    "customSchema": null,
+    "portA": {
+      "baudRate": 19200,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "flowControl": "none",
+      "profile": "RS-485 2-wire",
+      "role": "controller",
+      "label": "Channel A",
+      "notes": "Representative LINEGLASS sample capture."
+    },
+    "portB": {
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "flowControl": "none",
+      "profile": "RS-232",
+      "role": "monitor",
+      "label": "Channel B",
+      "notes": "Representative LINEGLASS sample capture."
+    }
+  },
+  "limitations": [
+    "Normal timestamps are host arrival timestamps, not wire-edge timestamps.",
+    "A conventional USB serial adapter does not provide an analog voltage waveform.",
+    "Direction inference, when present, must be treated as inferred evidence.",
+    "Electrical standard, voltage, pinout, polarity, termination, bias, and ground were not verified by LINEGLASS."
+  ],
+  "exported": "2026-08-18T14:00:00Z",
+  "sample": {
+    "slug": "03-rs485-modbus-valid",
+    "description": "Valid function 03 requests and responses with changing register values and correct Modbus CRCs.",
+    "deliberatelyGenerated": true
+  }
+}

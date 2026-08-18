@@ -1,0 +1,106 @@
+{
+  "application": "LINEGLASS",
+  "version": "1.0.0",
+  "samples": [
+    {
+      "file": "01-rs232-ascii-temperature.lineglass.json",
+      "name": "RS-232 ASCII Temperature Instrument",
+      "description": "One line per second from an ASCII temperature instrument using CR/LF termination.",
+      "decoder": "ascii",
+      "framing": "crlf",
+      "events": 60,
+      "bytes": 840,
+      "sha256": "3134d7641a97c3b04935c624997fa13ebc22da1398ac625b2446577498b0d150"
+    },
+    {
+      "file": "02-rs232-scpi-command-response.lineglass.json",
+      "name": "RS-232 SCPI Command / Response",
+      "description": "Alternating SCPI-style commands and instrument responses with host-arrival response timing.",
+      "decoder": "ascii",
+      "framing": "crlf",
+      "events": 96,
+      "bytes": 1404,
+      "sha256": "7c2b3650c952ae0e45324b8c4a37495cbf23522a276f525c1228fec3f0950c4d"
+    },
+    {
+      "file": "03-rs485-modbus-valid.lineglass.json",
+      "name": "RS-485 Modbus RTU — Valid Traffic",
+      "description": "Valid function 03 requests and responses with changing register values and correct Modbus CRCs.",
+      "decoder": "modbus-rtu",
+      "framing": "gap",
+      "events": 160,
+      "bytes": 1360,
+      "sha256": "b1f10014e8478148dfa8d95bbbc183585d1af071ba738e6123c5a01032e55af7"
+    },
+    {
+      "file": "04-modbus-errors-timeouts-exception.lineglass.json",
+      "name": "Modbus RTU — CRC Failures, Timeout, Exception",
+      "description": "A diagnostic capture containing invalid CRCs, long unanswered request gaps, and exception responses.",
+      "decoder": "modbus-rtu",
+      "framing": "gap",
+      "events": 68,
+      "bytes": 564,
+      "sha256": "64ecb88656c3c7c794b4bb4849f2598eb8597ebb2aa5fcb7e0dbdf77e0f99ceb"
+    },
+    {
+      "file": "05-nmea0183-gps.lineglass.json",
+      "name": "NMEA 0183 GPS Capture",
+      "description": "Valid GGA and RMC sentences forming a small local position track with speed and heading changes.",
+      "decoder": "nmea",
+      "framing": "crlf",
+      "events": 180,
+      "bytes": 12837,
+      "sha256": "0e6366da83bbc9f1ad07a56d8414935b3f83e13829cce7eba51d2a960c7579da"
+    },
+    {
+      "file": "06-custom-fixed-binary-sensor.lineglass.json",
+      "name": "Custom Fixed-Length Binary Sensor",
+      "description": "Nine-byte frames with sync, address, signed scaled temperature, a counter, flags, and additive checksum.",
+      "decoder": "custom",
+      "framing": "fixed",
+      "events": 180,
+      "bytes": 1620,
+      "sha256": "025ea7b13d247b60281afb576f2b467f6fd3473d0f4bf90374a77ed779441a9b"
+    },
+    {
+      "file": "07-custom-variable-length-crc.lineglass.json",
+      "name": "Variable-Length Binary + CRC",
+      "description": "Length-prefixed seven-byte telemetry frames with a scaled pressure field and CRC-16 integrity check.",
+      "decoder": "custom",
+      "framing": "length",
+      "events": 120,
+      "bytes": 840,
+      "sha256": "728fffdfce0eb2b2753256204c9d3d461c2c9003d90b29b8b77c9c855dd28e11"
+    },
+    {
+      "file": "08-dual-channel-rs232-tap.lineglass.json",
+      "name": "Dual-Channel RS-232 Tap",
+      "description": "Two receive-only channels capture controller and device conductors independently; direction is not asserted.",
+      "decoder": "ascii",
+      "framing": "crlf",
+      "events": 80,
+      "bytes": 830,
+      "sha256": "5532724f384303a5d75f25499bb751feff8fef42a13c645d4766dadbb127225a"
+    },
+    {
+      "file": "09-unknown-binary-protocol.lineglass.json",
+      "name": "Unknown Binary Protocol",
+      "description": "A ten-byte opaque protocol designed for clustering, byte-position entropy, counters, state fields, and checksum exploration.",
+      "decoder": "raw",
+      "framing": "fixed",
+      "events": 420,
+      "bytes": 4200,
+      "sha256": "7baf5aa66c152d86f78a4418e99daa265957f8a3ee7b72deef057f800ebeca4a"
+    },
+    {
+      "file": "10-high-volume-rendering-test.lineglass.json",
+      "name": "High-Volume Rendering Test",
+      "description": "Five thousand compact sensor frames for testing bounded rendering, charting, replay, and local storage behavior.",
+      "decoder": "custom",
+      "framing": "fixed",
+      "events": 5000,
+      "bytes": 45000,
+      "sha256": "6ef71db18c857f9809be3ce13f68bccbb8b3c0b9ca1aabd883bd25c5bcf56f07"
+    }
+  ]
+}
